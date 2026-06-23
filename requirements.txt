@@ -1,0 +1,17 @@
+# Core
+numpy>=2.0
+pandas>=2.2
+scipy>=1.14
+
+# Visualization
+matplotlib>=3.9
+
+# Data
+yfinance>=0.2
+
+# Notebook
+jupyter>=1.1
+notebook>=7.0
+
+# Export markdown tables
+tabulate>=0.9
