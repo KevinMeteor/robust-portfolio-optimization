@@ -72,7 +72,6 @@ Sample period:
 
 ## Efficient Frontier
 
-<!-- ![efficient_frontier](/reports/readme/figures/efficient_frontier.png) -->
 
 <p align="center">
   <img src="reports/readme/figures/efficient_frontier.png" width="700">
@@ -80,11 +79,20 @@ Sample period:
 
 The optimized portfolios lie closer to the efficient frontier than benchmark allocations, indicating improved risk-return efficiency under the current model assumptions.
 
+
+### Observation
+
+The target-return portfolio was constructed using a minimum-volatility objective with a return floor of 12%.
+
+In this dataset, the minimum-variance portfolio already achieved an expected return above 12%, making the return constraint non-binding.
+
+As a result, the Target Return portfolio became nearly identical to the Minimum Variance portfolio and appears very close to it on the efficient frontier.
+
+
 ---
 
 ## Portfolio NAV Comparison
 
-<!-- ![nav_comparison](reports/readme/figures/nav_comparison.png) -->
 
 <p align="center">
   <img src="reports/readme/figures/nav_comparison.png" width="850">
@@ -96,7 +104,6 @@ The Maximum Sharpe portfolio achieves the highest ending NAV, while more conserv
 
 ## Drawdown Comparison
 
-<!-- ![drawdown_comparison](reports/readme/figures/drawdown_comparison.png) -->
 
 <p align="center">
   <img src="reports/readme/figures/drawdown_comparison.png" width="850">
@@ -110,7 +117,6 @@ The 60/40 Stock-Bond portfolio exhibits the shallowest drawdowns, whereas return
 
 ## Maximum Sharpe Portfolio Weights
 
-<!-- ![max_sharpe_weights](reports/readme/figures/max_sharpe_weights.png) -->
 
 <p align="center">
   <img src="reports/readme/figures/max_sharpe_weights.png" width="700">
@@ -135,7 +141,6 @@ The optimized portfolio allocates capital unevenly across assets according to th
 
 ## Robustness Analysis
 
-<!-- ![robustness_max_sharpe_heatmap](reports/readme/figures/robustness_max_sharpe_heatmap.png) -->
 
 <p align="center">
   <img src="reports/readme/figures/robustness_max_sharpe_heatmap.png" width="700">
