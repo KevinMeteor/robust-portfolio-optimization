@@ -222,3 +222,14 @@ Interested in:
 - Quantitative Finance
 - Portfolio Optimization
 - Machine Learning
+
+
+## Disclaimer
+
+This repository is intended for educational, research, and portfolio demonstration purposes only.
+
+The analyses, models, results, and conclusions presented in this project are based on the available data, assumptions, and methodologies at the time of development. They may not reflect real-world outcomes and should not be interpreted as professional advice.
+
+This project does not constitute financial, investment, or trading advice.
+
+Users are responsible for independently evaluating any information provided in this repository before applying it to real-world decisions.
